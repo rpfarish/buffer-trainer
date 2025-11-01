@@ -158,3 +158,13 @@ ul.cornerbufferlist li {
   color: #e5c07b;
   cursor: pointer;
 }
+
+@media (max-width: 480px) {
+  .scramblediv {
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    text-align: center;
+    padding: 20px;
+    display: grid;
+  }
+}
