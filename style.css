@@ -23,6 +23,12 @@ body {
   align-items: center;
 }
 
+/* Remove weird underline from scram */
+.scramble p {
+  border: none;
+  text-decoration: none;
+}
+
 p {
   margin: auto;
 }
