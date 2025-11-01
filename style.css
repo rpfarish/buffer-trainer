@@ -117,7 +117,7 @@ ul.cornerbufferlist li {
   border: 2px solid;
 }
 
-.ghostClass: {
+.ghostClass {
   opacity: 0;
 }
 
@@ -157,10 +157,4 @@ ul.cornerbufferlist li {
 .mode:hover {
   color: #e5c07b;
   cursor: pointer;
-}
-
-@media only screen and (max-width: 430px) {
-  body {
-    font-size: 45px;
-  }
 }
