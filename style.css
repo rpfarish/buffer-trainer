@@ -166,7 +166,7 @@ ul.cornerbufferlist li {
   cursor: pointer;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 560px) {
   .scramblediv {
     border-bottom: 2px solid;
     border-top: 2px solid;
@@ -182,5 +182,9 @@ ul.cornerbufferlist li {
 
   .scramble {
     padding: 20px 0;
+  }
+
+  .confirm {
+    margin-right: -8px;
   }
 }
