@@ -15,6 +15,7 @@ body {
 .scramblediv > * {
   padding: 20px;
 }
+
 .scramble {
   text-align: center;
   margin: auto;
@@ -170,7 +171,16 @@ ul.cornerbufferlist li {
     border-bottom: 2px solid;
     border-top: 2px solid;
     text-align: center;
-    padding: 20px;
+    padding: 0 20px;
     display: grid;
+    width: 100%;
+  }
+
+  .scramblenav {
+    padding: 0;
+  }
+
+  .scramble {
+    padding: 20px 0;
   }
 }
